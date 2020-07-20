@@ -1,0 +1,24 @@
+{
+"inValidUserId":{
+"userOremailid" :"wrongmailid@gmail.con",
+"password":"correctpassword"
+},
+"inValidPassword":{
+"userOremailid" :"correctmailid@gmail.com",
+"password":"invalidpassword"
+},
+"validLogIn":{
+"userOremailid" :"correctmailid@gmail.com",
+"password":"password"
+},
+"itemName":{
+"productName" :"xyz mobile",
+"add":"4",
+"sub":"3"
+},
+"userData":{
+"userName" :"xyzuser",
+"mobileNo":"7890001984",
+"address":"#383,xyz road,bangalore -560082"
+}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--  Base on assumptions for the text message for mysiteXYZ app-->
+
+<string name="error_msg">Your user ID or password is incorrect</string>
+<string name="order">Your order number is </string>
+<string name="itemName">xyz mobile</string>
+<string name="itemAmt">20000.00</string>
+
+</resources>

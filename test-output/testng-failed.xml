@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.intuit.qbes.receiptcapture.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="emulator" value="true"/>
+    <parameter name="platformVersion" value="7.0"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value=""/>
+    <parameter name="deviceName" value="Pixel_3"/>
+    <classes>
+      <class name="com.intuit.qbes.receiptcapture.testcases.SignUpTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="signInAsDiffAcct"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.intuit.qbes.receiptcapture.testcases.SignUpTest -->
+      <class name="com.intuit.qbes.receiptcapture.testcases.SelectRealmTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="selectRealm"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.intuit.qbes.receiptcapture.testcases.SelectRealmTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
